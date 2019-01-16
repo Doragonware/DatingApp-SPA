@@ -6,15 +6,9 @@ import { AppComponent } from './app.component';
 import { ValueComponent } from './value/value.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    ValueComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule
-  ],
+  declarations: [AppComponent, ValueComponent],
+  imports: [BrowserModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
